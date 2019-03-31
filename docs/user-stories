@@ -1,0 +1,15 @@
+design mvp game model
+    unit test
+
+design mvp game controller
+    unit test
+
+integrate controller with model
+
+code minimal view
+
+integrate controller with view
+    test
+
+style view
+    test
