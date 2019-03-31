@@ -1,6 +1,6 @@
 # utbc2019-hw-04-crystal-collector
 
-This week I'm implementing "Crystals Collector", a simple number guessing game which updates the DOM dynamically using jQuery. Players click on crystals with associated values to accumulate a score which matches a random target value.
+This week I'm implementing "Crystals Collector", a simple number guessing game which updates the DOM dynamically using jQuery. Players click on crystals with associated values to accumulate a score with the goal of matching a random target value.
 
 ## Release 1.0 (MVP)
 
