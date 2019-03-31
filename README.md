@@ -18,7 +18,7 @@ The styling is brilliantly bad in a liberating way but it does match the specifi
 
 - jQuery to update the DOM.
 
-- The crystals are added on the fly and include frontend html elements with data-index attributes which map to an array of crystals owned by the game model on the backend. This enables crystal click events to trigger look-ups of the random value associated with a crystal object in the model and update the current score accordingly. Care is taken to bind event listeners at a document level so they can flow and find the dynamically added crystal elements that would otherwise be unknown to the DOM at load time.
+- The crystals are added on the fly and include frontend html elements with data-index attributes which map to an [array of crystals](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/80264c7df74f09f6e9f9b9558a7bc3e8b2005451/assets/js/model.js#L39) owned by the game model on the backend. This enables crystal click events to trigger look-ups of the random value associated with a crystal object in the model and update the current score accordingly. Care is taken to bind event listeners at a document level so they can flow and find the dynamically added crystal elements that would otherwise be unknown to the DOM at load time.
 
 ```javascript
 Controller.prototype.addCrystals = function() {
