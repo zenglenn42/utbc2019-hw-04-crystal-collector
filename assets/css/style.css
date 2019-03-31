@@ -1,0 +1,69 @@
+body {
+  background-color: lightskyblue;
+}
+
+#nameId {
+  background-color: orange;
+  color: white;
+  font-family: Times;
+  font-size: 2em;
+  padding: 1em 0.2em;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+#helpId {
+  background-color: linen;
+  color: green;
+  font-size: 1em;
+  width: 60%;
+  padding: 1em 0.2em 4em;
+  margin-bottom: 0.5rem;
+}
+
+#targetValueId {
+  background-color: lightseagreen;
+  color: black;
+  font-size: 2em;
+  float: left;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5em 3em 2em 0.2em;
+  width: fit-content;
+}
+
+#winloss {
+  background-color: cyan;
+  color: black;
+  font-size: 1em;
+  float: left;
+  margin-bottom: 0.5rem;
+  padding: 1em 0.3em 1em 0.3em;
+  width: fit-content;
+}
+
+#crystalParentId {
+  clear: left;
+  margin-bottom: 0.5rem;
+}
+
+.crystal {
+  margin-left: 0.2em;
+}
+
+#scoreLabel {
+  background-color: teal;
+  color: white;
+  font-size: 1em;
+  margin-bottom: 0.5rem;
+  width: fit-content;
+  padding: 0.2em 5em 0.2em 0.2em;
+}
+
+#scoreId {
+  background-color: teal;
+  color: white;
+  font-size: 2em;
+  width: fit-content;
+  padding: 0.5em 5.6em 2em 0.2em;
+}
