@@ -44,19 +44,19 @@ Controller.prototype.getCrystalCallback = function() {
 
 - Object oriented decomposition:
 
-  - Game
+  - [Game](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/e98776d2cf56c8e5af537e9af54434f9aa04d603/assets/js/model.js#L4)
 
     - This knows about wins, losses, and scores.
 
-  - CrystalCollector Game
+  - [CrystalCollector Game](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/e98776d2cf56c8e5af537e9af54434f9aa04d603/assets/js/model.js#L38)
 
     - This inherits from Game and knows how to play the game and take a turn.
 
-  - Crystal
+  - [Crystal](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/e98776d2cf56c8e5af537e9af54434f9aa04d603/assets/js/model.js#L113)
 
     - This associates a gem image with an object that can randomize a value. An array of these is owned by the CrystalCollector Game. Crystal values are randomized whenever the game's reset method is called (after a round of play).
 
-  - Controller
+  - [Controller](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/e98776d2cf56c8e5af537e9af54434f9aa04d603/assets/js/controller.js#L7)
     - This mediates data flow between the user interface and game objects.
 
 Surprisingly little integration debugging was required, but my world was rocked a bit during unit test of the CrystalCollector model. It looks like chrome's console performs a live evaluation of object content.
