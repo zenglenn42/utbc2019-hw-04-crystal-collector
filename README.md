@@ -61,7 +61,11 @@ Controller.prototype.getCrystalCallback = function() {
 
 Surprisingly little integration debugging was required, but my world was rocked a bit during unit test of the CrystalCollector model. It looks like chrome's console performs a live evaluation of object content.
 
-This threw me off because I would newly instantiate the game object, dump it to the console, mutate the object, then console log again. But drilling down into both before-and-after objects within the inspector yielded only the /mutated/ object values in both cases!
+This threw me off because I would [newly instantiate the game object](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/541ed9b7b7ef42ae4a29acb54c766d87d8e0f471/assets/js/model.js#L141), dump it to the console, mutate the object, then console log again. But drilling down into both before-and-after objects within the inspector yielded only the /mutated/ object values in both cases!
+
+![alt tag](docs/img/inspector.png)
+
+(Notice the 'value: 10, 11, 9, 11' in both instances of CrystallCollector?!)
 
 The lesson is that console log does not necessarily reflect an object's history of change over time. I need to dig into this more as I'm unsure if this relates more to the shared aspect of an object's prototype area across all instances versus some tooling behaviour unique to chrome's inspector.
 
