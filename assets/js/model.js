@@ -26,8 +26,6 @@ Game.prototype.getScore = function() {
     return this.score;
 }
 Game.prototype.reset = function() {
-    this.losses = 0;
-    this.wins = 0;
     this.score = 0;
     this.state = "playing";
 }
@@ -70,8 +68,7 @@ CrystalCollector.prototype.getTargetValue = function() {
     return this.targetValue;
 }
 CrystalCollector.prototype.reset = function() {
-    this.score = 0;
-    this.state = "playing";
+    Game.prototype.reset.call(this);    // call supercalss reset()
     for (let index in this.crystals) {
         this.crystals[index].reset();
     }
