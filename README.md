@@ -55,6 +55,7 @@ Controller.prototype.getCrystalCallback = function() {
   - [Crystal](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/e98776d2cf56c8e5af537e9af54434f9aa04d603/assets/js/model.js#L113)
 
     - This associates a gem image with an object that can randomize a value. An array of these is owned by the CrystalCollector Game. Crystal values are randomized whenever the game's reset method is called (after a round of play).
+    - Scalability note: Adding more crystals to the game is just a matter of editing [this image array](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/0989f987423afa20de16d676c50631a7e7696c15/assets/js/model.js#L47).
 
   - [Controller](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/e98776d2cf56c8e5af537e9af54434f9aa04d603/assets/js/controller.js#L7)
     - This mediates data flow between the user interface and game objects.
