@@ -14,7 +14,7 @@ The styling is brilliantly bad in a liberating way but it does match the specifi
 
 ## Implementation Features
 
-- MVC software pattern.
+- [Model View Controller](https://developer.chrome.com/apps/app_frameworks) (MVC) software pattern.
 
 - jQuery to update the DOM.
 
