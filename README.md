@@ -60,6 +60,10 @@ Controller.prototype.getCrystalCallback = function() {
   - [Controller](https://github.com/zenglenn42/utbc2019-hw-04-crystal-collector/blob/e98776d2cf56c8e5af537e9af54434f9aa04d603/assets/js/controller.js#L7)
     - This mediates data flow between the user interface and game objects.
 
+## UML Class Diagram
+
+![alt tag](docs/img/cc-uml.png)
+
 ## Implementation Blockers
 
 ### Chrome's Live Evaluation of Objects
